@@ -1,14 +1,5 @@
 class Solution {
     public int search(int[] nums, int target) {
-		// int pivot = findPivot(nums);
-		// int ans=0;
-		// if(pivot == -1) ans = binarySearch(nums, target, 0, nums.length-1);
-		// else {
-		// 	ans = binarySearch(nums, target, 0, pivot);
-		// 	if(ans == -1) 
-		// 		 ans = binarySearch(nums, target, pivot, nums.length-1);
-		// }
-		// return ans;
         int pivot = findPivot(nums);
 
         // if you did not find a pivot, it means the array is not rotated

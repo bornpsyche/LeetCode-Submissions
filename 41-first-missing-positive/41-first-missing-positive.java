@@ -14,7 +14,6 @@ class Solution {
         int k = 0;
         for(k = 0; k < nums.length; k++) {
             if(nums[k]!=k+1 ) {
-                //if()
                 return k+1;
             }
         }
